@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/krealstate/static/css/main.44e1a33c.css",
+    "main.js": "/krealstate/static/js/main.e115de79.js",
+    "static/js/787.27d801e9.chunk.js": "/krealstate/static/js/787.27d801e9.chunk.js",
+    "index.html": "/krealstate/index.html",
+    "main.44e1a33c.css.map": "/krealstate/static/css/main.44e1a33c.css.map",
+    "main.e115de79.js.map": "/krealstate/static/js/main.e115de79.js.map",
+    "787.27d801e9.chunk.js.map": "/krealstate/static/js/787.27d801e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44e1a33c.css",
+    "static/js/main.e115de79.js"
+  ]
+}
