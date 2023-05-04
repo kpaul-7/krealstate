@@ -1,0 +1,9 @@
+@media (min-width: 1080px) {
+  .Main {
+    display: flex;
+    width: 1020px;
+    margin: auto;
+    margin-top: 16px;
+    gap: 16px;
+  }
+}

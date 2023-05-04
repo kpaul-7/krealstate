@@ -1,0 +1,11 @@
+footer {
+  box-shadow: var(--boxShadow);
+  margin-top: 16px;
+  padding: 8px;
+  text-align: center;
+  color: var(--secondary);
+}
+.Footer i {
+  display: inline-block;
+  margin-right: 8px;
+}

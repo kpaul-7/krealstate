@@ -1,0 +1,137 @@
+.Navbar {
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  color: var();
+}
+.NavbarBackground {
+  box-shadow: var(--boxShadow);
+}
+.Show {
+  display: block;
+  transform: translateX(0);
+  transition: all 1s ease-in-out;
+}
+.Hide {
+  transform: translateX(100%);
+  transition: all 1s ease-in-out;
+}
+.Navs,
+.MenuOptions {
+  display: none;
+}
+.Logo {
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+  color: var(--secondary);
+}
+.MobileNavOpen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.MobileNavOpen i {
+  display: inline-block;
+  font-size: 22px;
+}
+.Logo i {
+  display: inline-block;
+  margin-right: 8px;
+}
+.Logo span {
+  font-weight: bold;
+}
+.Mobiledropdown {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 70vw;
+  padding: 16px;
+  background-color: var(--secondary);
+  z-index: 999;
+  color: var(--primary);
+  font-size: 1.3em;
+}
+.Mobiledropdown ul {
+  margin-top: 16px;
+  list-style: none;
+}
+.Mobiledropdown li {
+  padding: 100px auto;
+}
+.Mobiledropdown li a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  padding: 2px 0;
+}
+.MobileMenuClose {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 30px;
+}
+.MobileMenuOptions {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (min-width: 720px) {
+  .MobileNavOpen {
+    display: none;
+  }
+  .Navbar {
+    display: flex;
+  }
+  .Navs {
+    display: flex;
+    align-items: center;
+  }
+  .Navs ul,
+  .MenuOptions {
+    color: var(--secondary);
+    font-size: 20px;
+  }
+  .Navs ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style: none;
+  }
+  .Navs ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--secondary);
+  }
+  .MenuOptions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+}
+@media (min-width: 1080px) {
+  .Navbar {
+    width: 1020px;
+    margin: auto;
+  }
+  .Logo {
+    font-size: 25px;
+  }
+  .Navs ul,
+  .MenuOptions {
+    font-size: 22px;
+  }
+  .MenuOptions {
+    gap: 20px;
+  }
+  .Navs ul {
+    gap: 25px;
+  }
+}

@@ -1,0 +1,30 @@
+.Contents {
+  height: 72vh;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: var(--boxShadow);
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--secondary);
+  border-radius: 8px;
+}
+
+@media (min-width: 720px) {
+  .Contents {
+    height: 85vh;
+    width: 100%;
+    justify-content: space-around;
+    align-content: flex-start;
+  }
+}
+@media (min-width: 1080px) {
+  .Contents {
+    width: 70%;
+  }
+}
